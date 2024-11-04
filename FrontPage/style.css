@@ -1,0 +1,327 @@
+/* Landing Section Styles */
+.hero-section {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/pets-hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: linear-gradient(transparent, #fff);
+}
+
+.hero-buttons .btn {
+  padding: 12px 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.custom-bg {
+  background-color: #e8dcc4;
+}
+
+/* Card Hover Effect */
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Link Colors */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Responsive Image Handling */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer Enhancement */
+footer {
+  margin-top: auto;
+}
+
+/* General Body Setup */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrot-image {
+  height: 200px;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+/* Navbar text color */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 1); /* Full black on hover */
+}
+
+/* Brand name color */
+.navbar-dark .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.location-item {
+  border-left: 3px solid #e8dcc4;
+  padding-left: 15px;
+}
+
+.location-item h6 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the offcanvas button */
+.btn-primary {
+  background-color: #e8dcc4;
+  border-color: #d8c8b0;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #d8c8b0;
+  border-color: #c8b8a0;
+  color: #000;
+}
+
+/* Style the offcanvas itself */
+.offcanvas {
+  max-width: 350px;
+}
+
+.offcanvas-header {
+  background-color: #e8dcc4;
+}
+
+.location-item p {
+  color: #666;
+  margin-bottom: 0;
+}
+
+/* Carousel Styling */
+.carousel-section {
+  background-color: #f8f9fa;
+}
+
+.carousel-inner {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators {
+  bottom: 20px;
+}
+
+/* Make carousel responsive */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
+
+/* History Section Styling */
+.history-section {
+  background-color: #f8f9fa;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: #e8dcc4;
+  margin-bottom: 20px;
+}
+
+.history-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease;
+  border-top: 4px solid #e8dcc4;
+}
+
+.history-card:hover {
+  transform: translateY(-5px);
+}
+
+.history-card .year {
+  color: #e8dcc4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.history-card h5 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.history-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.history-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.history-attribution {
+  color: #888;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .history-card {
+    margin-bottom: 20px;
+  }
+
+  .history-quote {
+    font-size: 1.1rem;
+  }
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: #fff;
+}
+
+.stat-item {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-item i {
+  font-size: 2.5rem;
+  color: #e8dcc4;
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.stat-item p {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
+  }
+
+  .hero-buttons .btn {
+    margin: 5px;
+    padding: 10px 20px;
+  }
+
+  .stat-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section .hero-buttons {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.hero-section p {
+  animation-delay: 0.2s;
+}
+
+.hero-section .hero-buttons {
+  animation-delay: 0.4s;
+}
