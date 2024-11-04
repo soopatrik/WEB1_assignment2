@@ -27,7 +27,7 @@ A responsive pet store website built with Bootstrap 5.3.3.
 ## Installation Options
 
 ### Option 1: Download ZIP
-1. Go to https://github.com/YourUsername/WEB1_Assignment2
+1. Go to https://github.com/soopatrik/WEB1_Assignment2
 2. Click the green "Code" button
 3. Select "Download ZIP"
 4. Extract the ZIP file
