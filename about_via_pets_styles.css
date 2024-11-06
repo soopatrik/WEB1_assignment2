@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.jumbotron {
+  background-color: #17a2b8; /* Bootstrap 'info' color */
+  color: rgb(245, 192, 192);
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 500px; /* height for carousel images */
+  object-fit: cover;
+}
+footer {
+  background-color: #17a2b8;
+  color: white;
+}
+#carouselExampleIndicators {
+  margin: 0 auto;
+}
