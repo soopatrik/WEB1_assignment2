@@ -22,7 +22,8 @@ A responsive pet store website built with Bootstrap 5.3.3.
 
 ## Authors
 - Patrik
-- //sign your names in
+- Cristian
+- //sign your name here
 
 ## Installation Options
 
