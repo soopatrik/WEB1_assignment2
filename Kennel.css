@@ -1,0 +1,151 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color: #343a40; 
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black 
+}
+
+.navbar-nav .nav-link {
+    color: #e0e0e0; 
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: black; 
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(240, 248, 255)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.container-fluid {
+    background-color: #deb887; 
+    height: 100%;
+    padding: 0;
+}
+
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+.info-box {
+    background-color: #fafafa;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.info-box h3 {
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom:10px 
+  
+}
+
+.info-box p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: whitesmoke;
+}
+
+footer .text-md-end p {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+      padding: 50px;
+  }
+
+  .info-box {
+      padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+      font-size: 1.8rem;
+  }
+}
